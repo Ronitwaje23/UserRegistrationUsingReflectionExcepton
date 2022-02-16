@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UserRegistrationexRefAnn
+namespace UserRegistration
 {
     public class Program
     {
@@ -56,11 +56,20 @@ namespace UserRegistrationexRefAnn
                 }
             }
         }
+        //Method to perform LambdaValidation
+        public static void LambdaValidate()
+        {
+            LambdaValidation.ValidateFirstName();
+            LambdaValidation.ValidateLastName();
+            LambdaValidation.ValidateMobileNumber();
+            LambdaValidation.ValidateEmail();
+        }
         //Program Entry Point
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to User Registration Program");
             UserRegistration();
+            LambdaValidate();
             Console.ReadLine();
         }
     }

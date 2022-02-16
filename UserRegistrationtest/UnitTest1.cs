@@ -1,8 +1,8 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using UserRegistrationexRefAnn;
+using UserRegistration;
 
-namespace UserRegistrationest
+namespace MsTestProject
 {
     [TestClass]
     public class UnitTest1
